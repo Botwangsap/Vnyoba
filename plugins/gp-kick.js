@@ -15,7 +15,7 @@ handler.help = ['kick @user']
 handler.tags = ['group']
 handler.command = ['kick', 'expulsar'] 
 handler.admin = false
-handler.rowner = true
+handler.premium = true
 handler.group = true
 handler.botAdmin = true
 
