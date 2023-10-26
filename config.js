@@ -15,7 +15,7 @@ global.owner = [
 ] // Nomor Owner
 
 global.mods = ['6281998425782'] 
-global.prems = ['6281998425782', '6283175007441', '62895341145875', '6288211866802']
+global.prems = ['6281998425782', '6283175007441', '62895341145875', '6288211866802', '6282298971176', '6282162905827', '62882005664659', '6287835394339', '6281367788791']
 
 // apikey
 global.lann = 'AnggaKz'
@@ -43,8 +43,8 @@ global.thumb = 'https://telegra.ph/file/a8c77ca227fe1041183b6.jpg' // thumbnail 
 global.dygp = 'https://chat.whatsapp.com/Ly28IB8Fel4JbPS0qCUy2p' // link group yang ada di menu
 
 // Sticker wm
-global.packname = '© Bot Discord MD (0831-9148-6089)┃ᴮᴼᵀ' 
-global.author = '@jika ingin sewabot silahkan chat ownerbot (081998425782)' 
+global.packname = '© Bot Discord MD✅ (0831-9148-6089)┃ᴮᴼᵀ' 
+global.author = '✅jika ingin sewabot silahkan chat ownerbot (081998425782)' 
 global.fgig = 'https://www.instagram.com/anggatzi123' // bebas tapi jangan kosong 
 global.fgsc = 'https://www.instagram.com/anggatzi123' // bebas tapi jangan kosong
 global.fgyt = 'https://www.instagram.com/anggatzi123' // bebas tapi jangan kosong
