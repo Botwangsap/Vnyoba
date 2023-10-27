@@ -119,6 +119,8 @@ export async function handler(chatUpdate) {
                     chat.viewonce = false
                 if (!('onlyLatinos' in chat))
                     chat.onlyLatinos = false
+                if (!('autoread' in chat)) 
+                    chat.autoread = true
                  if (!('nsfw' in chat))
                     chat.nsfw = false
                 if (!isNumber(chat.expired))
@@ -127,6 +129,7 @@ export async function handler(chatUpdate) {
                 global.db.data.chats[m.chat] = {
                     isBanned: false,
                     welcome: false,
+                    autoread: true,
                     detect: true,
                     sWelcome: '',
                     sBye: '',
@@ -160,6 +163,7 @@ export async function handler(chatUpdate) {
         } catch (e) {
             console.error(e)
         }
+        if (opts['autoread']) await this.readMessages([m.key])
         if (opts['nyimak'])
             return
         if (!m.fromMe && opts['self'])
