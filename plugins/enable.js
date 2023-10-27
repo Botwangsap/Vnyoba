@@ -152,6 +152,15 @@ const listMessage = {
       }
       bot.restrict = isEnable
       break
+
+    case 'autoread':
+      isAll = true
+      if (!isROwner) {
+        global.dfail('rowner', m, conn)
+        throw false
+      }
+      global.opts['autoread'] = isEnable
+      break
     
     case 'onlypv':
     case 'onlydm':
