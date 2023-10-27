@@ -127,7 +127,7 @@ export async function handler(chatUpdate) {
                 global.db.data.chats[m.chat] = {
                     isBanned: false,
                     welcome: false,
-                    detect: false,
+                    detect: true,
                     sWelcome: '',
                     sBye: '',
                     sPromote: '',
@@ -146,11 +146,15 @@ export async function handler(chatUpdate) {
                 if (!('self' in settings)) settings.self = false
                 if (!('autoread' in settings)) settings.autoread = false
                 if (!('restrict' in settings)) settings.restrict = false
+                if (!('autorestart' in settings)) settings.autorestart = true
+                if (!('restartDB' in settings)) settings.restartDB = 0
                 if (!('status' in settings)) settings.status = 0
             } else global.db.data.settings[this.user.jid] = {
                 self: false,
-                autoread: false,
-                restrict: false, 
+                autoread: true,
+                restrict: true, 
+                autorestart: true,
+                restartDB: 0
                 status: 0
             }
         } catch (e) {
