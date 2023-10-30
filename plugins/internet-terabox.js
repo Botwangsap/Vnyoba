@@ -25,9 +25,9 @@ Tautan Langsung: ${fileInfo.direct_link}
   }
 };
 
-handler.help = ['tera'];
+handler.help = ['terabox'];
 handler.tags = ['internet'];
-handler.command = /^(tera)$/i;
+handler.command = /^(terabox)$/i;
 handler.limit = true;
 
 export default handler;
