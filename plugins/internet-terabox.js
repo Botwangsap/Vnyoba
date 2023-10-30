@@ -6,7 +6,7 @@ let handler = async (m, { conn, args }) => {
   m.reply('Tunggu sebentar...');
 
   let url = encodeURIComponent(args[0]);
-  let apiUrl = `https://xzn.wtf/api/teraboxdl?url=${url}&apikey=mufar`;
+  let apiUrl = `https://xzn.wtf/api/teraboxdl?url=${url}&apikey=AnggaKz`;
   
   let res = await fetch(apiUrl);
   let json = await res.json();
