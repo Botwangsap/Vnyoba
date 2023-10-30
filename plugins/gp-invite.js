@@ -14,8 +14,8 @@ handler.help = ['invite <628xxx>']
 handler.tags = ['group']
 handler.command = ['invite','invitar'] 
 handler.group = true
-handler.admin = false
+handler.admin = true
 handler.botAdmin = true
-handler.rowner = true
+handler.rowner = false
 
 export default handler
