@@ -5,7 +5,7 @@ handler.all = async function (m) {
     if (m.text.startsWith('.') || m.text.startsWith('#') || m.text.startsWith('!')) {
     /* Mengetik */
     let ran = ['recording']
-	return this.sendPresenceUpdate(ran.(), m.chat)
+	return this.sendPresenceUpdate(ran, m.chat)
     }
     if (m.text.startsWith('.') || m.text.startsWith('#') || m.text.startsWith('!')) {
     /* MeReact */
