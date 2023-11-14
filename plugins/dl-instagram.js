@@ -20,5 +20,6 @@ handler.help = ['ig'].map(v => v + ' <url>')
 handler.tags = ['dl']
 handler.command = /^(Instagram|ig|igdl|igstory)$/i
 handler.limit = true
+handler.premium = true
 
 export default handler
