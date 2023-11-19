@@ -26,6 +26,7 @@ handler.help = ['waifu', 'neko', 'megumin', 'loli']
 handler.tags = ['nime']
 handler.command = ['waifu', 'neko', 'megumin', 'loli'] 
 handler.diamond = true
+handler.premium = true
 
 export default handler
 
