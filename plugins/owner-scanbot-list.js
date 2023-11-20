@@ -1,7 +1,7 @@
 let handler = async (m, { conn }) => {
 let sewa = `
 ❏──「 *listjadibot* 」
-✅ https://wa.me/62819984257822?text=.jadibot
+✅ https://wa.me/6281998425782?text=.jadibot
 ❏──────────────๑
 `
 conn.reply(m.chat, sewa, m)
