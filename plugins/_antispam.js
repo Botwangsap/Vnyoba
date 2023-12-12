@@ -9,7 +9,7 @@ handler.all = async function (m) {
         if (m.messageTimestamp.toNumber() - this.spam[m.sender].lastspam > 5000) {
             if (this.spam[m.sender].count > 5000) {
                 //global.db.data.users[m.sender].banned = true
-                m.reply('Jangan spam, beri jeda 5 detik!')
+                m.reply('Jangan spam, beri jeda 5 detik!.kosekuensi jika melanggar anda akan terbanned tidak bisa mengunakan bot Discord')
             }
             this.spam[m.sender].count = 0
             this.spam[m.sender].lastspam = m.messageTimestamp.toNumber()
