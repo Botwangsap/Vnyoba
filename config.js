@@ -10,12 +10,12 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['62831914860899', '© AnggaKz', true],
-  ['62831914860899']
+  ['62831914860891', '© AnggaKz', true],
+  ['62831914860891']
 ] // Nomor Owner
 
-global.mods = ['62831914860899'] 
-global.prems = ['62831914860899', '6283175007441', '62895341145875', '6288211866802', '6288211304749', '628811167355']
+global.mods = ['62831914860891'] 
+global.prems = ['62831914860891', '6283175007441', '62895341145875', '6288211866802', '6288211304749', '628811167355']
 
 // apikey
 global.lann = 'AnggaKz'
@@ -37,7 +37,7 @@ global.APIs = { // API Prefix
 
 // Watermark
 global.nama = '© AnggaKz' // nama owner
-global.nomor = '62831914860899' // nomor owner
+global.nomor = '62831914860891' // nomor owner
 global.nans = '© Bot Discord' // nama bot 
 global.thumb = 'https://telegra.ph/file/a8c77ca227fe1041183b6.jpg' // thumbnail bot ( foto menu )
 global.dygp = 'https://chat.whatsapp.com/Ly28IB8Fel4JbPS0qCUy2p' // link group yang ada di menu
