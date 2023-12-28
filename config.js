@@ -18,14 +18,14 @@ global.mods = ['62831914860891']
 global.prems = ['62831914860891', '6283175007441', '62895341145875', '6288211866802', '6288211304749', '628811167355']
 
 // apikey
-global.lann = 'AnggaKz'
+global.lann = 'beta-AnggaKz'
 global.xzn = 'AnggaKz' //daftar sendiri jika key habis https://xzn.wtf/
 // apikeylu di ganti menggunakan apikey yang di dapatkan di website https://api.betabotz.org. contohnya global.lann = 'nans' (contoh). cara mendapatkan apikey. masuk website > scroll ke bawah dan cari harga yang kamu mau ada juga yang free dan tekan > otomatis akan di arahkan untuk registrasi, isi data diri email dll. > kalo sudah klik profil dan di situ akan muncul apikey mu. terima kasih.
 
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
   'https://api-fgmods.ddns.net': 'dPKgFE8f',
-  'https://api.betabotz.org': 'AnggaKz'
+  'https://api.betabotz.org': 'beta-AnggaKz'
 }
 
 global.APIs = { // API Prefix
